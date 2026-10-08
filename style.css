@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #0f172a;
+    color: white;
+    min-height: 100vh;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 60px 20px 40px;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+header p {
+    color: #94a3b8;
+    font-size: 18px;
+}
+
+/* Projects */
+
+.projects {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+}
+
+/* Project Card */
+
+.project-card {
+    background: #1e293b;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+
+    transition: 0.3s;
+}
+header .logo {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #2563eb;
+}
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+/* Card heading */
+
+.project-card h2 {
+    margin-bottom: 15px;
+    font-size: 22px;
+}
+
+/* Card description */
+
+.project-card p {
+    color: #94a3b8;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+/* Button */
+
+.project-card a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: white;
+
+    background: #2563eb;
+
+    padding: 12px 22px;
+    border-radius: 8px;
+
+    transition: 0.3s;
+}
+
+.project-card a:hover {
+    background: #1d4ed8;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 50px 20px 25px;
+    color: #64748b;
+}
